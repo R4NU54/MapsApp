@@ -1,0 +1,12 @@
+<div class="searchBox">
+  <div class="d-flex justify-content-center align-items-center">
+    <label class="bi bi-search p-2"></label>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Que buscas..."
+      #txtQuery
+      (keyup)="onQueryChange(txtQuery.value)" />
+  </div>
+  <search-result></search-result>
+</div>
