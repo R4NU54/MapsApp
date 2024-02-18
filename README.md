@@ -1,27 +1,34 @@
 # MapsApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+## Description
 
-## Development server
+This is a simple application that allows users to explore maps and perform various actions. Made in Angular 17 with standalone components.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![alt text](MapsAppWeb.png)
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Map display
+- Zoom in/out functionality
+- Search for locations
+- Routing and directions
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone the repository.
+2. Install dependencies: `npm install`
+3. Start the application: `npm start`
 
-## Running unit tests
+## Usage
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Open the application in your web browser.
+2. Explore the map by dragging, zooming, and searching for locations.
+3. Use the routing feature to get directions between two points.
 
-## Running end-to-end tests
+## Contributing
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-## Further help
+## License
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
